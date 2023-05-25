@@ -1,0 +1,147 @@
+body{
+    font-family: "Roboto";
+    font-weight: 700
+}
+
+.griot{
+    left: 5px;
+    margin-right: 500px;
+}
+
+li{
+    display: inline;
+    margin: 70px;
+    color: white;
+    font-size: 50px;
+}
+
+div ul{
+    background-color: black;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+.header{
+    text-align: center;
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+.show{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+}
+
+.date{
+    font-size: 40px;
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(230, 223, 223);
+}
+
+.button{
+    background-color: orange;
+    height: 60px;
+    width: 100px;
+    color: white;
+}
+
+.box{
+    width: 30%;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 1px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}     
+
+.grid-container{
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 1%;
+    padding: 1px;
+    grid-template-areas: 
+        "r1c1"
+        "r2c1"
+        "r3c1"
+        "r4c1"
+}
+
+.row1{
+    grid-area: r1c1
+}
+
+.row2{
+    grid-area: r2c1
+}
+
+.row3{
+    grid-area: r3c1
+}
+
+.row4{
+    grid-area: r4c1
+}
+
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+    border-bottom: 1px solid black;
+}
+
+
+.grid-container2{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "r1c1 r1c2 r1c3 r1c4"
+}
+
+.text{
+    font-size: 75px;
+}
+
+.text2{
+    font-size: 20px;
+}
+
+.map{
+    grid-area: r1c1
+}
+
+.info{
+    grid-area: r1c2;
+}
+
+.shows{
+    grid-area: r1c3;
+}
+.socials{
+    grid-area: r1c4;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+}
